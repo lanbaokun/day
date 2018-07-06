@@ -1,0 +1,212 @@
+@import url(conmon.css);
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: .8rem;
+}
+
+header .title {
+  width: 100%;
+  height: .4rem;
+  display: flex;
+  justify-content: center;
+}
+
+header .title p {
+  margin: 0 auto;
+  line-height: .4rem;
+  color: #E9A6B2;
+  font-weight: 900;
+  font-size: .2rem;
+}
+
+header .head {
+  width: 100%;
+  height: .45rem;
+  overflow: hidden;
+}
+
+header .head ul {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+header .head ul li {
+  width: 16%;
+  text-align: center;
+  height: .42rem;
+  flex-shrink: 0;
+  line-height: .4rem;
+}
+
+header .head ul li.l-active {
+  color: #E9A6B2;
+  border-bottom: 1px solid #E9A6B2;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.font {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  padding-left: .04rem;
+}
+
+.font img {
+  padding-right: .04rem;
+}
+
+.autoplay {
+  width: 100%;
+  height: 1.73rem;
+}
+
+.autoplay .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.autoplay .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.autoplay .swiper-wrapper .swiper-slide dl {
+  width: 33.3%;
+}
+
+.autoplay .swiper-wrapper .swiper-slide dl dd h6 {
+  font-size: .12rem;
+  line-height: .2rem;
+}
+
+.autoplay .swiper-wrapper .swiper-slide dl dd p {
+  font-size: .13rem;
+}
+
+.autoplay .swiper-wrapper .swiper-slide dl dd p span {
+  color: #DE889D;
+}
+
+.subnav {
+  width: 100%;
+  line-height: .26rem;
+  text-align: center;
+}
+
+.subnav span {
+  position: relative;
+}
+
+.subnav span:before {
+  content: '';
+  width: .08rem;
+  height: .02rem;
+  background: #B5B3B4;
+  position: absolute;
+  top: .1rem;
+  left: -.15rem;
+}
+
+.subnav span:after {
+  content: '';
+  width: .08rem;
+  height: .02rem;
+  background: #B5B3B4;
+  position: absolute;
+  top: .1rem;
+  right: -.15rem;
+}
+
+.sublist {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sublist dl {
+  width: 50%;
+  flex-shrink: 0;
+  margin-top: .05rem;
+}
+
+.sublist dl dd {
+  padding-left: .05rem;
+  box-sizing: border-box;
+}
+
+.sublist dl dd h6 {
+  font-size: .13rem;
+  line-height: .2rem;
+}
+
+.sublist dl dd h6 span {
+  font-size: .1rem;
+}
+
+.sublist dl dd p {
+  font-size: .08rem;
+}
+
+.sublist dl dd p span {
+  color: #DB6381;
+  font-size: .11rem;
+}
+
+.sublist dl dd h5 {
+  font-size: .08rem;
+  text-align: right;
+  padding-right: .1rem;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  height: .5rem;
+}
+
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul li {
+  text-align: center;
+  color: #B0AFB4;
+}
+
+footer ul li.actives {
+  color: #F999AC;
+}
+
+footer ul li b {
+  font-weight: normal;
+}
+
+footer ul li span {
+  display: block;
+  font-size: .1rem;
+}
